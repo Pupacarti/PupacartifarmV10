@@ -11,7 +11,7 @@ local scriptActive = false -- เริ่มต้นเป็น false (ปิ
 local isRightClicking = false
 local isEngaging = false
 
-local requiredZombieCount = 5 -- ต้องเห็นซอมบี้พร้อมกัน 5 ตัวขึ้นไปถึงเริ่มยิง
+local requiredZombieCount = 3 -- ต้องเห็นซอมบี้พร้อมกัน 5 ตัวขึ้นไปถึงเริ่มยิง
 local lastShootTime = 0
 local shootCooldown = 0.4     -- เว้นระยะยิงทีละ 1 นัด (0.4 วินาที) ไม่เปลืองกระสุน
 local currentTarget = nil     -- เช็กเป้าหมายปัจจุบันเพื่อยิงนัดแรกทันที
